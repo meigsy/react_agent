@@ -43,7 +43,7 @@ def main(question: str,
     api_key = os.environ["OPENAI_API_KEY"]
 
     llm = ChatOpenAI(
-        open_ai_key=api_key,
+        openai_api_key=api_key,
         model="gpt-4-0125-preview",
         temperature=0,
         timeout=60)
