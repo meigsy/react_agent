@@ -77,6 +77,6 @@ def main(question: str,
 
 
 if __name__ == "__main__":
-    main(question="What is the capital of France?",
+    main(question=f"Use this page to look up the capital of France? url: https://en.wikipedia.org/wiki/France",
          max_iterations=3,
          max_execution_time=60)
